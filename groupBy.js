@@ -33,14 +33,13 @@ dc: [
 
 export const groupBy = (arr, key) => {
   if (!key) throw Error('key in not provided');
-  if(!arr) throw Error('array is not provided');
+  if (!arr) throw Error('array is not provided');
   return arr.reduce((acc, current) => ({
     ...acc,
     [current[key]]: [
       ...(acc[current[key]] || []),
       current
     ]
-
   })
   , {})
 }
