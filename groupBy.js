@@ -1,5 +1,4 @@
-/* Assessment Test
-Task 1 (GroupBy)
+/* Task 1 (GroupBy)
 Task should be uploaded to GitHub account.
 You need to create a function, which will group an array of objects by a key.
 Requirements:
@@ -42,7 +41,7 @@ export const groupBy = (arr, key) => {
     ]
   })
   , {})
-}
+};
 
 // Example
 
@@ -52,6 +51,6 @@ const data = [
   { id: 3, universe: "dc", name: "Aqua Man" },
   { id: 4, universe: "dc", name: "Bat Man" },
   { id: 5, universe: "marvel", name: "Hulk" }
-]
+];
 
-console.log(data, 'universe')
+console.log(data, 'universe');
